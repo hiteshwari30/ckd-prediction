@@ -1,17 +1,37 @@
-# Python
-__pycache__/
-*.pyc
-*.pyo
-*.pyd
-*.db
-
-# Jupyter
+# Jupyter/Colab checkpoints
 .ipynb_checkpoints/
 
-# Environment
-venv/
-.env
+# Python cache files
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
 
-# OS files
+# Virtual environment (if you export locally)
+venv/
+env/
+.venv/
+
+# System files
 .DS_Store
 Thumbs.db
+
+# Log files
+*.log
+
+# Dataset files (keep repo small, don’t upload raw data)
+*.csv
+*.tsv
+*.xlsx
+*.json
+
+# Model files (large trained models not needed on GitHub)
+*.h5
+*.pkl
+*.joblib
+
+# Colab specific temporary files
+*.ckpt
+*.pb
+
+
